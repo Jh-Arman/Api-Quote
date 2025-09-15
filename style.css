@@ -1,0 +1,62 @@
+*,*::after,*::before{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+
+}
+
+
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    background-image: url(photo/jordan-steranka-snpFW42KR8I-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container {
+    
+  border-radius: 20px;
+  padding: 25px 15px;
+  width: 85%;
+  text-align: center;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.4px);
+-webkit-backdrop-filter: blur(3.4px);
+border: 1px solid rgba(255, 255, 255, 0.16);
+}
+#container p{
+font-size: 25px;
+font-weight: bold;
+color: #262626; 
+margin-bottom: 10px;
+}
+#container h4 {
+display: inline-block;
+background: #262626;
+padding: 10px 15px;
+color: white;
+border-radius: 5px;
+}
+#container button{
+display: block;
+width: 150px;
+padding: 10px;
+border-radius: 5px;
+border: 0px solid;
+margin: 10px auto 0;
+cursor: pointer;
+}
